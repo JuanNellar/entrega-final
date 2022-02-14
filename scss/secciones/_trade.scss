@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainTrade{
+    display: flex;
+  
+}
+.imagenTrade{
+    height: 30%;
+    width: 13%;
+    margin-left: 5%;
+ 
+}
+
+
+.mainTrade h2{
+    margin-top: 5%;
+    color: rgb(6, 63, 15);
+    font-size: bold;
+}
+    
+.mainTrade p{
+    padding: 5%;
+    color: rgb(15, 15, 15);
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 1.5;
+    width: 700px;
+    margin-left: 10px ;
+    display: inline-block;
+    position: relative;
+    left: 15%;
+    margin-top: 5%;
+}

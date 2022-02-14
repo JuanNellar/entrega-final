@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainAcademia{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    
+}
+.imagenAcademia{
+    position: fixed;
+    height: 30%;
+    width: 13%;
+    margin-left: 5%;
+ 
+}
+.boots{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.imagen{
+    margin-left: 30%;
+    width: 400px;
+}
+
+.mainAcademia p{
+    color: rgb(19, 16, 16);
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 1.5;
+    width: 700px;
+    padding: 5%;
+    display: inline-block;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 30%;
+    
+
+}

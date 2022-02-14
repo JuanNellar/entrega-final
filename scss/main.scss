@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//variables
+
+@import './variables/extend';
+ // secciones
+
+ @import './header-footer/header';
+ @import './secciones/index';
+ @import './secciones/academia';
+ @import './secciones/minera';
+ @import './secciones/trade';
+ @import './secciones/contacto';
+ @import './header-footer/footer';
+

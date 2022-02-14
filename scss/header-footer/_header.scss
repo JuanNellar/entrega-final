@@ -1,0 +1,28 @@
+    
+
+.header{
+    background-image: linear-gradient(to top, rgb(29, 27, 27), rgb(13, 56, 13));
+
+    img{
+        width: 30%;
+        margin-left: 5rem;
+    }
+   
+}
+.navbar-brand {
+    padding-bottom: 2rem;}
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        text-align: right;
+    }
+ .navbar-light .navbar-nav .nav-link.active{
+     color: white;
+ }
+ .lista li{
+     padding: 5%;
+ }
+ .lista li:hover {
+    background-color: rgb(8, 134, 56);
+    border-radius: 10%;
+    
+}
