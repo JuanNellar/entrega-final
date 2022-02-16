@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+ body{
+    background-color: rgb(8, 8, 8);
+    
+}
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(6, 82, 37);
+    color: rgb(231, 236, 233);
     line-height: 1fr;
     font-weight: bold;
     position: absolute;
@@ -29,28 +33,29 @@ h1{
     right: 50px;
    
 }
-
-
 .prin{
+    
     height: 60vh;
     display: flex;
     flex-direction: inline;
 }
+
+
 .nosotros {
     margin-top: 25px;
     display: flex;
 }
 .iconoA{
     margin-left: 40%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 0;
+    margin-bottom: 10%;
     
 }
     
 
 h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(6, 82, 37);
+    color: rgb(221, 231, 225);
     line-height: 1fr;
     font-weight: bold;
     position: absolute;
@@ -74,7 +79,7 @@ section{
 
  
 .main__parrafo1{
-    color: rgb(19, 16, 16);
+    color: rgb(250, 246, 246);
     font-style: italic;
     font-size: 1.5em;
     line-height: 1.5;
@@ -87,34 +92,43 @@ section{
     
     
 }
-.main__div .nosotros p{
-    margin-left: 10%;
+.main__div {
+    .nosotros p{
+    margin-left: 5%;
     padding-left: 5%;
     margin-top: 3%;
-}
- .main__div .nosotros img{
+    }
+  .nosotros img{
    margin-top: 5%;    
     margin-left: 5%;
     margin-bottom: 8%;
     width: 25%;
 }
-.main__div.crypto{
+ .crypto{
     display: flex;
     flex-direction: row;
+    
 }
-.main__div .crypto p{
+.iconoA{
+    margin-left: 40%;
+    margin-top: 0;
+    margin-bottom: 10%;
+    
+}
+ .crypto p{
     margin-right: 5%;
 }
-.main__div .crypto img{
+ .crypto img{
     margin-top: 10%;
     margin-left: 5%;
 }
-.main__div .crypto h2{
+.crypto h2{
     left: 5%;
+}
 }
 
 img{
-    
+    border-radius: 15%;
     width: 18%;
     height: 80%;
     
@@ -129,7 +143,7 @@ img:hover{
     display: inline-block;
     flex-direction: row;
     margin-bottom: 50px;
-    margin-top: 75px;
+    margin-top: 10em;
     padding: 20px;
    
 }
@@ -142,18 +156,18 @@ img:hover{
     
 }
 .tituloServicios{
-    left: 42%;
-    font-size: 2.5em;
-    margin-top: 0;
+    left: 40%;
+    font-size: 3.5em;
+    margin-top: 1em;
 }
-.crypto{
-    display: flex;
-}
+
 
 
 .iconoA:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
     transition-property: all;
     transition-duration: 1.5s;
 }
-
+.crypto img:hover{
+    background-color: aliceblue;
+}

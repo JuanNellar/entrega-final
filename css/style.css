@@ -4,7 +4,6 @@
   box-sizing: border-box; }
 
 .mainMineria p {
-  color: green;
   font-weight: bold; }
 
 .header {
@@ -35,9 +34,12 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  background-color: #080808; }
+
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #065225;
+  color: #e7ece9;
   line-height: 1fr;
   font-weight: bold;
   position: absolute;
@@ -69,12 +71,12 @@ h1 {
 
 .iconoA {
   margin-left: 40%;
-  margin-top: 5%;
-  margin-bottom: 5%; }
+  margin-top: 0;
+  margin-bottom: 10%; }
 
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #065225;
+  color: #dde7e1;
   line-height: 1fr;
   font-weight: bold;
   position: absolute;
@@ -89,7 +91,7 @@ section {
   margin-top: 5%; }
 
 .main__parrafo1 {
-  color: #131010;
+  color: #faf6f6;
   font-style: italic;
   font-size: 1.5em;
   line-height: 1.5;
@@ -100,7 +102,7 @@ section {
   margin-top: 5%; }
 
 .main__div .nosotros p {
-  margin-left: 10%;
+  margin-left: 5%;
   padding-left: 5%;
   margin-top: 3%; }
 
@@ -110,9 +112,14 @@ section {
   margin-bottom: 8%;
   width: 25%; }
 
-.main__div.crypto {
+.main__div .crypto {
   display: flex;
   flex-direction: row; }
+
+.main__div .iconoA {
+  margin-left: 40%;
+  margin-top: 0;
+  margin-bottom: 10%; }
 
 .main__div .crypto p {
   margin-right: 5%; }
@@ -125,6 +132,7 @@ section {
   left: 5%; }
 
 img {
+  border-radius: 15%;
   width: 18%;
   height: 80%; }
 
@@ -137,7 +145,7 @@ img:hover {
   display: inline-block;
   flex-direction: row;
   margin-bottom: 50px;
-  margin-top: 75px;
+  margin-top: 10em;
   padding: 20px; }
 
 #servicios a {
@@ -147,17 +155,17 @@ img:hover {
   margin-top: 30px; }
 
 .tituloServicios {
-  left: 42%;
-  font-size: 2.5em;
-  margin-top: 0; }
-
-.crypto {
-  display: flex; }
+  left: 40%;
+  font-size: 3.5em;
+  margin-top: 1em; }
 
 .iconoA:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
   transition-property: all;
   transition-duration: 1.5s; }
+
+.crypto img:hover {
+  background-color: aliceblue; }
 
 * {
   margin: 0;
@@ -185,7 +193,7 @@ img:hover {
   width: 400px; }
 
 .mainAcademia p {
-  color: #131010;
+  color: #fcf7f7;
   font-style: italic;
   font-size: 1.5em;
   line-height: 1.5;
@@ -195,6 +203,9 @@ img:hover {
   position: relative;
   margin-top: 5%;
   margin-left: 30%; }
+
+h1 {
+  left: 40%; }
 
 * {
   margin: 0;
@@ -218,10 +229,19 @@ img:hover {
   margin-bottom: 5%; }
 
 .imagenMineria {
-  position: fixed;
+  margin-top: 10%;
+  position: absolute;
   height: 35%;
   width: 13%;
   margin-left: 5%; }
+
+.logoPrincipal {
+  margin-top: 15%; }
+
+.iconoA {
+  margin-left: 40%;
+  margin-top: 5%;
+  margin-bottom: 0%; }
 
 * {
   margin: 0;
@@ -232,8 +252,9 @@ img:hover {
   display: flex; }
 
 .imagenTrade {
+  margin-top: 10%;
   height: 30%;
-  width: 13%;
+  width: 25%;
   margin-left: 5%; }
 
 .mainTrade h2 {
@@ -243,7 +264,7 @@ img:hover {
 
 .mainTrade p {
   padding: 5%;
-  color: #0f0f0f;
+  color: #f5eeee;
   font-style: italic;
   font-size: 1.5em;
   line-height: 1.5;
@@ -251,7 +272,7 @@ img:hover {
   margin-left: 10px;
   display: inline-block;
   position: relative;
-  left: 15%;
+  left: 5%;
   margin-top: 5%; }
 
 * {
@@ -285,10 +306,11 @@ img:hover {
 
 .mainContacto {
   display: flex;
-  margin-top: 0%;
+  margin-top: -10%;
   flex-direction: column; }
 
-.mainContacto h2 {
+.mainContacto h1 {
+  left: 40%;
   margin-top: 0%;
   position: absolute; }
 
@@ -321,10 +343,11 @@ img:hover {
   margin-bottom: 10%; }
 
 .boton {
-  margin-left: 100%;
+  margin-left: 120%;
   color: white;
   background-color: green;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-top: -15%; }
 
 .accordion-body {
   padding: 5rem 1.25rem; }
@@ -334,9 +357,7 @@ img:hover {
   grid-template-columns: 1.1fr 46.9% 1fr;
   grid-template-rows: 2fr 6.5fr 1fr;
   gap: 0px 0px;
-  grid-template-areas: "header header header"
- ". mainContacto ."
- "footer footer footer"; }
+  grid-template-areas: "header header header" ". mainContacto ." "footer footer footer"; }
 
 .headerContacto {
   grid-area: header; }
@@ -350,11 +371,10 @@ img:hover {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   color: #f5f0f0;
   background-image: linear-gradient(to top, #1d1b1b, #0d380d);
   text-align: left;
-  border: solid 3px green;
   height: 15vh; }
 
 .lista2 {
@@ -370,56 +390,176 @@ footer {
   background-color: #088638;
   border-radius: 20%; }
 
-  @media (max-width: 426px){
-
-    h1{
-        margin-top: -10%;
-        left: 30%
-    }
-    .header img{
-      margin-left: 40%;
-    }
-    .main__div i{
-      color: rgb(239, 245, 239);
-      background-color: green;
-      font-size: 2rem;
-      border-radius: 15%;
-      margin-right: 80%;
-     
-  }
+@media (max-width: 426px) {
+  .header img {
+    margin-left: 9rem; }
+  h1 {
+    left: 30%;
+    margin-top: -5%; }
+  .fixed {
+    font-size: 2rem;
+    margin-right: 85%; }
   .main__div .nosotros img {
-    display: none;
-  }
+    display: none; }
+  .main__div .nosotros p {
+    margin-left: 10%; }
   .main__div .crypto img {
-    display: none;}
-    .main__parrafo1{
-      font-size: 1rem;
-    }
-    .main__div .crypto p {
-      margin-right: 5%;
-      margin-left: 10%;
-      margin-top: 10%;
-  }
+    display: none; }
+  .main__div .crypto h2 {
+    left: 15%;
+    font-size: 1.5em; }
+  .main__div .crypto p {
+    margin-left: 10%;
+    margin-right: 0; }
   .nosotros h2 {
     left: 20%;
-  }
-  .main__div .nosotros p{
-    margin-top: 7%;
-  }
+    margin-top: -5%; }
+  .nosotros img {
+    margin-left: 42%; }
+  .nostros .iconoA {
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 10%; }
   .tituloServicios {
-    left: 30%;
-    font-size: 2.5rem;
-    } 
-    #servicios a {
-      margin-left: 5.5rem;
-      margin-right: 1rem;
-  }
-  #servicios a img{
-    width: 50%;
-  }
-  footer{
-   flex-wrap: wrap;
-  }
-}
-    
-    
+    left: 25%; }
+  #servicios a {
+    margin: 0;
+    padding: 6%; }
+  #servicios img {
+    margin-left: 25%;
+    width: 50%; }
+  #servicios {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em; }
+  .lista2 {
+    display: flex;
+    justify-content: center; }
+  .lista2 i {
+    margin-right: 20%;
+    padding: 20%;
+    font-size: 1.5em; }
+  footer {
+    flex-direction: column;
+    height: 20vh; }
+  footer p {
+    margin: 0; }
+  .mainTrade h1 {
+    left: 40%;
+    margin-top: 0;
+    font-size: 2em; }
+  .mainTrade p {
+    font-size: 1em;
+    left: 0; }
+  .imagenTrade {
+    margin-top: 25%; }
+  .mainMineria h1 {
+    font-size: 2rem;
+    margin-top: auto;
+    left: 35%; }
+  .imagenMineria {
+    height: 10%;
+    width: 10%;
+    margin-left: 0; }
+  .logoPrincipal {
+    display: none; }
+  .mainMineria p {
+    font-size: 1em;
+    margin-left: 15%;
+    width: 22rem; }
+  .mainMineria h2 {
+    margin-top: -4%;
+    left: 30%; }
+  .blockchain {
+    right: 5%; }
+  .mainAcademia {
+    flex-direction: row; }
+  .formulario input {
+    margin-top: 20%;
+    width: 15rem;
+    height: 3rem; }
+  .mainContacto {
+    margin-left: -30%; }
+  .Contacto {
+    margin-right: 0; }
+  .mainContacto .formulario h1 {
+    left: 22%; }
+  h2 .boton {
+    margin-left: 0; }
+  .margen {
+    margin-left: auto; }
+  .imagenAcademia {
+    display: none; }
+  .mainAcademia h1 {
+    margin-top: 0;
+    font-size: 2em; }
+  .mainAcademia p {
+    margin-left: 10%; }
+  img {
+    border-radius: 15%; }
+  .mainContacto .formulario {
+    margin-left: 20%; } }
+
+@media (max-width: 768px) {
+  .main__div i {
+    font-size: 40px; }
+  #servicios a {
+    margin-right: 2em; }
+  .iconoA {
+    margin-left: 45%;
+    width: 15%; }
+  .main__div .crypto img {
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 0; }
+  h1 {
+    margin-top: -5%; }
+  footer {
+    flex-direction: column;
+    height: 25vh; }
+  .lista2 {
+    justify-content: space-around; }
+  .fixed {
+    right: 10px;
+    font-size: 2.5em; }
+  footer li {
+    text-decoration: none; }
+  .mainTrade h1 {
+    margin-top: 0; }
+  .mainTrade p {
+    left: 0; }
+  .imagenTrade {
+    margin-top: 15%; }
+  footer p {
+    margin-top: 2%;
+    font-weight: bold; }
+  .mainMineria h1 {
+    margin-top: 0; }
+  .imagenMineria {
+    margin-top: 10%;
+    height: 25%; }
+  .mainMineria p {
+    margin-left: 20%;
+    width: auto; }
+  .blockchain {
+    right: 23%; }
+  .mainAcademia p {
+    width: auto;
+    margin-left: 20%; }
+  .mainAcademia h1 {
+    margin-top: -2%;
+    left: 35%; }
+  .imagenAcademia {
+    height: 20%; }
+  .formulario {
+    margin-left: 0; }
+  .mainContacto i {
+    font-size: 40px; }
+  .boton {
+    margin-left: 60%; }
+  .contacto {
+    margin-right: auto; }
+  .mainContacto h1 {
+    left: 35%;
+    margin-top: 2%; } }

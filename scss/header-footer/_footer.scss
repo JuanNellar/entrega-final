@@ -2,16 +2,18 @@
 footer {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-around;
+   
    color: rgb(245, 240, 240);
    background-image: linear-gradient(to top, rgb(29, 27, 27), rgb(13, 56, 13));
     text-align: left;
-    border: solid 3px green;
+    
     
     height: 15vh;
 }
 .lista2{
-display: flex;
+  display: flex;
+
 }
 .lista2 li{
     padding: 20%;
@@ -22,6 +24,7 @@ display: flex;
 }
  
 .lista2 li:hover {
+    
     background-color: rgb(8, 134, 56);
     border-radius: 20%;
     
