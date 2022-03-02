@@ -1,45 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.mainMineria{ 
-    display: flex;
-     flex-direction: column;
- 
- }
- .mainMineria p{
-     
-     margin-left: 30%;
-     @extend %parrafo;
-    
- }
- .blockchain{
-     right: 25%;
-     bottom: 25%;
-     padding-bottom: 5%;
-    
- }
- 
- .mainMineria h2{
-     margin-top: 3%;
-     margin-bottom: 5%;
-     
- }
- .imagenMineria{
-     margin-top: 10%;
-     position: absolute;
-     height: 35%;
-     width: 13%;
-     margin-left: 5%;
+.mainMineria {
+  display: flex;
+  flex-direction: column;
+  iframe {
+    margin-left: 0%;
+    margin-top: 10%;
+  }
+  h1 {
+    left: 45%;
+  }
+  p {
+    @extend %parrafo;
+  }
+  h2 {
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .imagenMineria {
+    margin-top: 10%;
+    position: absolute;
+    height: 35%;
+    width: 13%;
+    margin-left: 5%;
+  }
+  .fixed {
+    position: fixed;
+    right: 50px;
+    color: rgb(239, 245, 239);
+    background-color: green;
+    font-size: 2.5em;
+    border-radius: 15%;
+  }
+}
+
+.blockchain {
+  right: 20%;
   
- }
- .logoPrincipal{
-     margin-top: 15%;}
-     .iconoA {
-        margin-left: 40%;
-        margin-top: 5%;
-        margin-bottom: 0%;}
- 
- 
+  bottom: 25%;
+  padding-bottom: 5%;
+}
+
+section.b {
+  margin-left: 0%;
+}
+
+.iconoA {
+  margin-left: 40%;
+  margin-top: 5%;
+  margin-bottom: 0%;
+}

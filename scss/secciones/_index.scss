@@ -1,173 +1,160 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- body{
-    background-color: rgb(8, 8, 8);
-    
-}
-h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(231, 236, 233);
-    line-height: 1fr;
-    font-weight: bold;
-    position: absolute;
-    
-    left: 45%;
-    font-size: 3em;
-    margin-top: 2%;
-    
-}
-.nosotros h2{
-    left: 45%;
-}
-.main__div i{
-    color: rgb(239, 245, 239);
-    background-color: green;
-    font-size: 60px;
-    border-radius: 15%;
-}
-.fixed{
-    position: fixed;
-    right: 50px;
-   
-}
-.prin{
-    
-    height: 60vh;
-    display: flex;
-    flex-direction: inline;
+body {
+  background-color: (black);
 }
 
+
+.nosotros h2 {
+  left: 45%;
+}
+
+.fixed {
+  position: fixed;
+  right: 50px;
+}
+.prin {
+  height: 60vh;
+  display: flex;
+  flex-direction: inline;
+}
 
 .nosotros {
-    margin-top: 25px;
-    display: flex;
+  margin-top: 25px;
+  display: flex;
 }
-.iconoA{
-    margin-left: 40%;
-    margin-top: 0;
-    margin-bottom: 10%;
-    
-}
-    
-
-h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(221, 231, 225);
-    line-height: 1fr;
-    font-weight: bold;
-    position: absolute;
-    
-    left: 40%;
-    font-size: 2em;
-    margin-top: 2%;
-    
+.iconoA {
+  margin-left: 40%;
+  margin-top: 0;
+  margin-bottom: 10%;
 }
 
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  line-height: 1fr;
+  font-weight: 600;
+  position: absolute;
 
-
-section{
-    display: flex;
-    justify-content:space-around;
-    margin-left: 7%;
-    margin-top: 5%;
-  
+  left: 40%;
+  font-size: 2.5em;
+  margin-top: 2%;
 }
 
-
- 
-.main__parrafo1{
-    color: rgb(250, 246, 246);
-    font-style: italic;
-    font-size: 1.5em;
-    line-height: 1.5;
-    width: 700px;
-    padding: 5%;
-    display: inline-block;
-    position: relative;
-    margin-top: 5%;
-  
-    
-    
+section {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 7%;
+  margin-top: 5%;
 }
+
+.main__parrafo1 {
+  color: rgb(250, 246, 246);
+  font-style: initial;
+  font-size: 1.5em;
+  line-height: 1.5;
+  width: 700px;
+  padding: 5%;
+  display: inline-block;
+  position: relative;
+  margin-top: 5%;
+}
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  line-height: 1fr;
+  font-weight: 700;
+  position: absolute;
+
+  left: 40%;
+  font-size: 3em;
+  margin-top: 2%;
+} 
 .main__div {
-    .nosotros p{
+ 
+  i {
+  color: rgb(239, 245, 239);
+  background-color: green;
+  font-size: 3em;
+  border-radius: 15%;
+}
+  .nosotros p {
     margin-left: 5%;
     padding-left: 5%;
     margin-top: 3%;
-    }
-  .nosotros img{
-   margin-top: 5%;    
-    margin-left: 5%;
-    margin-bottom: 8%;
-    width: 25%;
-}
- .crypto{
-    display: flex;
-    flex-direction: row;
-    
-}
-.iconoA{
-    margin-left: 40%;
-    margin-top: 0;
-    margin-bottom: 10%;
-    
-}
- .crypto p{
-    margin-right: 5%;
-}
- .crypto img{
+  }
+  .nosotros img {
     margin-top: 10%;
     margin-left: 5%;
-}
-.crypto h2{
-    left: 5%;
-}
-}
-
-img{
-    border-radius: 15%;
-    width: 18%;
-    height: 80%;
-    
-}
-img:hover{
-    transform: scale(1.2);
-    transition-property: all;
-    transition-duration: 1.5s;
-}
-
-#servicios{
-    display: inline-block;
+    margin-bottom: 8%;
+    width: 35%;
+    box-shadow: 6px 10px 10px rgb(241, 227, 227);
+  }
+  .nosotros .bitcoin {
+    margin-top: 5%;
+    width: 20%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    box-shadow: 5px 10px 10px rgb(241, 227, 227);
+  }
+  .crypto {
+    display: flex;
     flex-direction: row;
-    margin-bottom: 50px;
-    margin-top: 10em;
-    padding: 20px;
-   
-}
-#servicios a{
-    align-items: center;
-    margin-right: 100px;
-    margin-left: 60px;
-    margin-top: 30px;
-   
-    
-}
-.tituloServicios{
-    left: 40%;
-    font-size: 3.5em;
-    margin-top: 1em;
+  }
+  .iconoA {
+    margin-left: 40%;
+
+    margin-bottom: 10%;
+  }
+  .crypto p {
+    margin-right: 5%;
+  }
+  .crypto img {
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 35%;
+  }
+  .crypto h2 {
+    left: 5%;
+  }
 }
 
-
-
-.iconoA:hover{
-    transform: scale(1.2);
-    transition-property: all;
-    transition-duration: 1.5s;
+img {
+  border-radius: 15%;
+  width: 18%;
+  height: 80%;
 }
-.crypto img:hover{
-    background-color: aliceblue;
+img:hover {
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+
+#servicios {
+  display: inline-block;
+  flex-direction: row;
+  margin-bottom: 5em;
+  margin-top: 10em;
+  padding: 20px;
+}
+
+#servicios a {
+  align-items: center;
+  margin-right: 100px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.tituloServicios {
+  left: 40%;
+  font-size: 3.5em;
+  margin-top: 1em;
+}
+
+.iconoA:hover {
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: 1.5s;
 }

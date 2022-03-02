@@ -1,58 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.mainContacto h2:hover{
-    transform: scale(1.3);
-    transition-property: all;
-    transition-duration: 1.5s;
-}
-
-.mainContacto i{
-    color: rgb(239, 245, 239);
-    background-color: green;
-    font-size: 70px;
-    border-radius: 15%;
-}
-.fixed{
-    position: fixed;
-    right: 50px;
-    color: rgb(239, 245, 239);
-    background-color: green;
-    font-size: 70px;
-    border-radius: 15%;
-   margin-top: 20PX;
-    
-}
-.margen{
-   padding: 5%;
-    margin-bottom: 5%;
+.mainContacto h2:hover {
+  transform: scale(1.3);
+  transition-property: all;
+  transition-duration: 1.5s;
 }
 
-.mainContacto{
-    display: flex;
-    margin-top: -10%;
-    flex-direction: column;
-} 
-.mainContacto h1{
+.mainContacto i {
+  color: rgb(239, 245, 239);
+  background-color: green;
+  font-size: 4em;
+  border-radius: 15%;
+  font-size: 3em;
+}
+
+.margen {
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.mainContacto {
+  display: flex;
+  margin-top: -10%;
+  flex-direction: column;
+}
+.mainContacto {
+  h1 {
     left: 40%;
     margin-top: 0%;
     position: absolute;
-}
-.formulario{
-
+  }
+  .formulario {
     display: flexbox;
-    
-   margin-left: 20%;
-  padding-top: 5%;
-  margin-bottom: 10%;
-  color: rgb(15, 15, 15);
-  
-}
 
+    margin-left: 20%;
+    padding-top: 5%;
+    margin-bottom: 10%;
+    color: rgb(15, 15, 15);
+  }
+  p {
+    color: rgb(230, 197, 12);
+    margin-left: -18%;
+    font-size: 1.2em;
+  }
 
-.formulario input{
+  .formulario input {
     display: block;
     width: 400px;
     height: 50px;
@@ -61,45 +56,47 @@
     position: left;
     margin-top: 10%;
     font-weight: bold;
-    
-}
-.formulario input:hover{
+  }
+  .formulario input:hover {
     background-color: rgb(6, 100, 21);
     color: rgb(238, 231, 231);
-}
+  }
 
-.contacto{
+  .contacto {
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     height: 30px;
-    margin-right : 30%;
+    margin-right: 30%;
     margin-bottom: 10%;
-   
-}
-.boton{
+  }
+  .boton {
     margin-left: 120%;
     color: white;
-    background-color: green;
+    background-color: rgb(32, 105, 32);
     font-weight: bold;
     margin-top: -15%;
-}
-.accordion-body{
-    
-        padding: 5rem 1.25rem;
-    
+  }
+  .accordion-body {
+    padding: 5rem 1rem;
+  }
 }
 
 .grillaContacto {
-    display: grid; 
-    grid-template-columns: 1.1fr 46.9% 1fr; 
-    grid-template-rows: 2fr 6.5fr 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "header header header"
-      ". mainContacto ."
-      "footer footer footer"; 
-  }
-  .headerContacto { grid-area: header; }
-  .mainContacto { grid-area: mainContacto; }
-  .footerContacto { grid-area: footer; }
-  
+  display: grid;
+  grid-template-columns: 1.1fr 46.9% 1fr;
+  grid-template-rows: 2fr 6.5fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header header header"
+    ". mainContacto ."
+    "footer footer footer";
+}
+.headerContacto {
+  grid-area: header;
+}
+.mainContacto {
+  grid-area: mainContacto;
+}
+.footerContacto {
+  grid-area: footer;
+}
