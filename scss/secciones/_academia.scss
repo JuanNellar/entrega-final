@@ -1,39 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.mainAcademia{
-    display: flex;
-    flex-direction: column;
-    margin-top: 3%;
-    
-}
-
-.imagenAcademia{
-    position: absolute;
-    height: 40%;
-    width: 27%;
-    margin-left: 5%;
-    margin-top: 8%;
-    
- 
-}
-.boots{
-    width: 70%;
-    margin: 0 auto;
-    margin-bottom: 5%;
+.mainAcademia {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
 }
 
+.imagenAcademia {
+  position: absolute;
+  height: 40%;
+  width: 27%;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+.boots {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
 
 .mainAcademia {
-    i{
+  i {
     color: rgb(239, 245, 239);
     background-color: green;
     font-size: 3em;
     border-radius: 15%;
-}
-    p{
+  }
+  p {
     color: rgb(252, 247, 247);
     font-style: italic;
     font-size: 1.5em;
@@ -43,23 +39,21 @@
     display: inline-block;
     position: relative;
     margin-top: 5%;
-    margin-left: 35%;}
-    h1{
+    margin-left: 35%;
+  }
+  h1 {
     left: 45%;
+  }
+  #servicios img {
+    width: 25%;
+    margin-left: 8%;
+  }
+  .flechita {
+    margin-left: 50%;
+    width: 5%;
+  }
+  #servicios p {
+    margin-left: 0;
+    color: rgb(230, 197, 12);
+  }
 }
- #servicios img{
-     width: 25%;
-     margin-left: 8%;
- }
- .flechita{
-     margin-left: 50%;
-     width: 5%;
- }
- #servicios p{
-     margin-left: 0;
-     color: rgb(230, 197, 12);
- }
-
-}
-
-
